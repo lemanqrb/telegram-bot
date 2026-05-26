@@ -1,0 +1,9 @@
+image: python:3.11
+
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - python -m py_compile bot.py
